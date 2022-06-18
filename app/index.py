@@ -101,7 +101,7 @@ def log_alien():
 
 
 #<--Mensaje de bienvenida--> 
-@app.route('/', methods=['GET'])
+@app.route('/inicio', methods=['GET'])
 def index():
     mensaje = [{"Mensaje":"Bienvenido al apiAlien"}, {"Integrantes":"Raul Estrada, " + "Jesus Acosta, " + "Eduardo Paz, " + "Calos Manuel, " + "Ulises Montana, " + "Hector Virrueta, " + "Jorge Alberto"}]
     
